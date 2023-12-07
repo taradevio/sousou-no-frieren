@@ -27,6 +27,7 @@ span {
 }
 
 ul > li:hover {
+  transition: 0.7s ease;
   transform: scale(1.05);
 }
 
@@ -52,4 +53,8 @@ ul > li:hover {
     top: 50%;
     text-align: center;
     width: 100%;
+  }
+
+  .content {
+    border: 2px solid;
   }
