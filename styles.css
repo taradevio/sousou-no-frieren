@@ -42,7 +42,7 @@ ul > li:hover {
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   z-index: 0;
