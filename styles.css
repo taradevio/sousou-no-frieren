@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Cinzel', serif;
 }
 
 ul {
@@ -19,18 +20,14 @@ li {
 }
 
 span {
-  border: 2px solid;
-  padding: 6.5px;
+  padding: 12px 20px;
   background-color: burlywood;
-  border-radius: 10px;
+  box-shadow: 5px 5px red, 10px 10px lightgreen;
+  cursor: pointer;
 }
 
-span:hover {
-  border-color: aquamarine;
-}
-
-a {
-  text-decoration: none;
+ul > li:hover {
+  transform: scale(1.05);
 }
 
 #background-video {
