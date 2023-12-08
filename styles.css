@@ -65,3 +65,33 @@ ul > li:hover {
   font-size: 25px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
+h2 {
+  text-align: center;
+  padding: 10px 12px;
+  margin: 2rem 0;
+  background-color: #6487A8;
+}
+
+.char-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.characters {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+img {
+  width: 55%;
+}
+
+figcaption {
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 0 #A6C8E8, 0 1px #A6C8E8, 1px 0 #A6C8E8, 0 -1px #A6C8E8;
+}
+
