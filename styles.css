@@ -5,6 +5,11 @@
   font-family: "Cinzel", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 9rem);
+}
+
 ul {
   max-width: max-content;
   display: flex;
@@ -35,7 +40,7 @@ ul > li:hover {
 #background-video {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   z-index: -1;
   mix-blend-mode: darken;
@@ -70,7 +75,10 @@ h2 {
   text-align: center;
   padding: 10px 12px;
   margin: 2rem 0;
-  background-color: #6487A8;
+}
+
+.chara-page {
+  height: 100vh;
 }
 
 .char-container {
@@ -115,7 +123,7 @@ figcaption {
 
 .wrap .gallery {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   transition: .3s;
   filter: grayscale();
