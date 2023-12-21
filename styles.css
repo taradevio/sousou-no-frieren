@@ -27,8 +27,8 @@ li {
 
 span {
   padding: 12px 20px;
-  background-color: #A6C8E8;
-  box-shadow: 5px 5px #F0F8FF, 10px 10px #6487A8;
+  background-color: #a6c8e8;
+  box-shadow: 5px 5px #f0f8ff, 10px 10px #6487a8;
   cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ figure {
 figcaption {
   font-size: 20px;
   color: black;
-  text-shadow: 1px 0 #A6C8E8, 0 1px #A6C8E8, 1px 0 #A6C8E8, 0 -1px #A6C8E8;
+  text-shadow: 1px 0 #a6c8e8, 0 1px #a6c8e8, 1px 0 #a6c8e8, 0 -1px #a6c8e8;
 }
 
 /* Create Gallery */
@@ -115,7 +115,7 @@ figcaption {
   width: 100%;
   padding: 4% 1%;
   box-sizing: border-box;
-  height: 90vh;
+  height: 100vh;
 }
 
 .gallery {
@@ -126,9 +126,9 @@ figcaption {
 .wrap {
   flex: 1;
   overflow: hidden;
-  transition: .3s;
+  transition: 0.3s;
   margin: 0 1%;
-  box-shadow: 0 20px 30px #A6C8E8;
+  box-shadow: 0 20px 30px #a6c8e8;
   line-height: 0;
 }
 
@@ -136,7 +136,7 @@ figcaption {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  transition: .3s;
+  transition: 0.3s;
   filter: grayscale();
 }
 
@@ -151,10 +151,6 @@ figcaption {
   object-fit: cover;
 }
 
-#va {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  width: 400px;
-  height: 300px;
+.va {
+  width: 20%;
 }
-
